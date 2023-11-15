@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 h1,
@@ -22,6 +22,8 @@ p {
 #todoList {
   padding: 100px 0;
   background: linear-gradient(115deg, rgb(190, 116, 46), rgb(0, 100, 128));
+  height: 97vh;
+  width: 100vw;
 }
 
 #todoList .box {
@@ -66,7 +68,6 @@ p {
   color: rgb(17, 4, 71);
 }
 
-
 #todoList .box input::placeholder {
   font-size: 16px;
   font-weight: 500;
@@ -88,7 +89,10 @@ p {
   padding-left: 20px;
   padding-right: 20px;
 }
-
+#listContainer {
+  height: 200px !important;
+  overflow-y: scroll !important;
+}
 #todoList .box form {
   display: flex;
   background: #80808026;
